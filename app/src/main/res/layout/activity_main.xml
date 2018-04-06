@@ -69,19 +69,91 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NET ID"
+            android:textSize="22sp"
+            android:layout_marginBottom="6dp"/>
 
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+<!--        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BROADCAST"
+            android:textSize="22sp"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:textSize="20sp"/>-->
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2">
+ <!--       <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            tools:ignore="NestedWeights">
+            <TextView
+                android:id="@+id/hostqtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. de Hosts"
+                android:textSize="22sp"
+                android:layout_marginBottom="6dp"/>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2">
+            <EditText
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hostqtxt"
+                android:background="@drawable/edittext_bg"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/redtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parte de red"
+                android:textSize="22sp"
+                android:layout_marginBottom="6dp"/>
+            <EditText
+                android:layout_marginTop="6dp"
+                android:layout_below="@+id/redtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_bg"
+                android:textSize="20sp"/>
+        </RelativeLayout>-->
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
